@@ -13,7 +13,7 @@
 IRCDjs-six is a fork from the original owners git hub (I believe to be Alex Young): https://github.com/alexyoung/ircd.js
 
 
-This version is not strict for RFC as it has a few extra features & implementations. 
+The reason I started this extension is to advance my NodeJS skills and overall javascript knowledge. Feel free to contribute and become a project developer. 
 
 
 The readme has been updated. The original one can be found here: https://github.com/alexyoung/ircd.js/blob/master/README.textile
