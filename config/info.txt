@@ -1,0 +1,20 @@
+- IRCDjs-six is a modified version of an old project called ircd.js.
+- We would like to thank all of our contributors from ircd.js for making this
+- project possible:
+-
+- overra
+- jazzychad (Chad Etzel)
+- sespindola (Sebastian A. Espindola)
+- niklasf
+- treeform
+- guybrush (Patrick Pfeiffer)
+- eirikb (Eirik Brandtzæg)
+- andrew12 (Andrew Herbig)
+- jrasanen (Jussi Räsänen)
+-
+- IRCDjs-six Founding Developers:
+-
+- rambo (Kyle Rambeau)
+- BaW (Brad Wright)
+-
+- IRCDjs-six is v0.0.70 build 1 born March 21, 2016

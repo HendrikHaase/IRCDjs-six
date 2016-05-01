@@ -9,14 +9,21 @@
                                             A Node.JS IRC Server
  ircd.js
 </pre>
+## IRCDjs-six
+IRCDjs-six is a fork from the original owners git hub (I believe to be Alex Young): https://github.com/alexyoung/ircd.js
 
-h3. About
 
-I'm implementing "RFC 1459":https://tools.ietf.org/html/rfc1459 / "RFC 2812":https://tools.ietf.org/html/rfc2812 for "Node.js":http://nodejs.org/.
+This version is not strict for RFC as it has a few extra features & implementations. 
 
-The server will allow clients to connect, join channels, change topics; basic stuff.
 
-Done:
+The readme has been updated. The original one can be found here: https://github.com/alexyoung/ircd.js/blob/master/README.textile
+
+
+IRCD.js-six Dev
+
+rambeau88 (kyle)
+
+#### Done
 
 * PASS (connection password)
 * PING/PONG
@@ -34,34 +41,51 @@ Done:
 * WHO
 * OPER
 * KICK
-* WALLOP
 * CONNECT
-* Connection garbage like MOTD
-* Basic data validation
-* Simple JSON config file
-* Channel modes: o, p, s, t, n, m, i, l, b, v, k
-* User modes: i, w, o
+* OWNERKEY
+* SERVICE
+* LUSERS
+* NOTICE
+* ADMIN
+* INFO
+* STATS: C, U
+* Channel modes: A, P, a, o, p, s, t, r, n, m, i, l, b, v, k
+* User modes: O, S, A, N, X, a, i, w, o, s
+* Prefix: &Service ~Oper @Owner %Host +Voice
 
-Planned:
+#### Oper Levels
+* 0 - uMode O - Local oper
+* 1 - uMode S - Support
+* 2 - uMode o - Operator
+* 3 - uMode A - Admin
+* 4 - uMode N - Network Admin
+* 5 - uMode X - Full Admin
+
+
+#### Oper Commands
+* REHASH         (5+)
+* KILL           (3+)
+* WALLUSERS      (2+)
+* WALLOPS        (2+)
+
+
+#### In Progress:
 
 * Services
-* Bring back server links
+* Server Links
 * Server-to-server NICK messages when nicks are changed or new clients join
-* Server-to-server messages for JOIN, NJOIN, MODE, PRIVSG and NOTICE
+* Server-to-server messages for JOIN, NJOIN, MODE, PRIVMSG and NOTICE
 * SQUIT and QUIT for links
 * Server to server communication
-* More basic commands: NOTICE, LINKS, TRACE, ADMIN, INFO
+* More basic commands: LINKS, TRACE
 * Log files and logging options
 * Local ops (+O)
-* Stats command
 
-h3. Documentation
+#### Documentation
 
-Install with <code>npm install ircdjs</code>.
+There is no documentation of this version.
 
-Set up configuration in <code>/etc/ircdjs/config.json</code>.
-
-h3. Contributions
+#### Contributions
 
 * overra
 * jazzychad (Chad Etzel)
@@ -73,7 +97,7 @@ h3. Contributions
 * andrew12 (Andrew Herbig)
 * jrasanen (Jussi Räsänen)
 
-h3. License (GPL)
+#### License (GPL)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -1,27 +1,64 @@
-{ "network":  "ircn",
-  "hostname": "localhost",
+{
+  "network": "ircdjs-six",
+  "hostname": "alpha.ircdjs-six.com",
   "serverDescription": "A Node IRC daemon",
-  "serverName": "server1",
+  "serverName": "alpha.ircdjs-six.com",
   "port": 6667,
   "linkPort": 7777,
-  "motd": "Message of the day",
+  "diePasswd": "29djs=-2*291jsn1&*@",
   "whoWasLimit": 10000,
   "token": 1,
+  "topicLength": 390,
+  "channelLength": 50,
+  "pingTimeout": 120,
+  "maxNickLength": 30,
+  "maxConnections": 1000,
+  "maxLinks": 100,
+  "adminLoc1": "Location 1",
+  "adminLoc2": "New York",
+  "adminEmail": "admin@admin.com",
+  "clientvHost": ".user.network",
   "opers": {
-    "alex": { "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC" }
+    "admin": {
+      "allowedHost": "*",
+      "password": "$2a$10$lBiMkwM8G8Pk9yc26aLj3eGSQegPA4HKStkCf958zNTk2FM/2cWOe",
+      "vhost": "oper.staff.network",
+      "operLevel": 5
+    }
   },
   "channels": {
-    "channel1": { "topic": "First Channel" },
-    "channel2": { "topic": "Second Channel" },
-    "!channel3": { "topic": "Third channel" },
-    "+channel4": { "topic": "Fourth Channel" }
+    "channel1": {
+      "topic": "First Channel"
+    },
+    "channel2": {
+      "topic": "Second Channel"
+    }
   },
   "links": {
-    "server2": { "host": "127.0.0.1",
-                 "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
-                 "port": 7778,
-                 "token": 2 }
+    "server2": {
+      "active": false,
+      "host": "127.0.0.1",
+      "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
+      "port": 7777,
+      "token": 2
+    }
   },
-  "pingTimeout": 120,
-  "maxNickLength": 30
+  "services": {
+    "MyServer": {
+      "ident": "MyService",
+      "pword": "passwordHere",
+      "vhost": "Service.Chat.Network",
+      "allowedHost": "127.0.0.1"
+    }
+  },
+  "klines": {
+    "99.192.21.3": {
+      "isKlined": true,
+      "reason": "This is a test k-line",
+      "removalTime": "182817281",
+      "oper": "Json",
+      "nickName": "dude",
+      "mask": "dude!blah@thesd.users.chatnetwork"
+    }
+  }
 }
