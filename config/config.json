@@ -34,14 +34,6 @@
       "topic": "Second Channel"
     }
   },
-  "services": {
-    "MyServer": {
-      "ident": "MyService",
-      "pword": "passwordHere",
-      "vhost": "Service.Chat.Network",
-      "allowedHost": "127.0.0.1"
-    }
-  },
   "klines": {
     "99.192.21.3": {
       "isKlined": true,
