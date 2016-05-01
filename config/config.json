@@ -34,15 +34,6 @@
       "topic": "Second Channel"
     }
   },
-  "links": {
-    "server2": {
-      "active": false,
-      "host": "127.0.0.1",
-      "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
-      "port": 7777,
-      "token": 2
-    }
-  },
   "services": {
     "MyServer": {
       "ident": "MyService",
