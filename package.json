@@ -18,11 +18,12 @@
     "carrier": ">= 0.1.13",
     "bcrypt": ">= 0.8.0",
     "winston": "0.7.3",
+    "line-reader": ">= 0.4.0",
     "commander": "git://github.com/visionmedia/commander.js.git"
   },
   "bin": {
-    "ircdjs-pwgen": "bin/pwgen.js",
-    "ircdjs": "ircdjs-six"
+    "pwgen": "bin/pwgen.js",
+    "ircdjs-six": "ircdjs-six"
   },
   "licenses": [
     {
