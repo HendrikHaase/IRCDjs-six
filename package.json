@@ -1,0 +1,33 @@
+{
+  "name": "ircdjs-six",
+  "description": "An Advanced IRCD for Node",
+  "version": "0.0.75-six",
+  "homepage": "https://github.com/rambeau88/IRCDjs-six",
+  "author": "Kyle Rambeau (jkrambeau@gmail.com)",
+  "main" : "./lib/server.js",
+  "directories": {
+    "lib": "./lib",
+    "man": "./doc/man"
+  },
+  "keywords": ["irc", "ircd", "daemons", "servers", "chat", "nodejs"],
+  "repository": "git://github.com/rambeau88/IRCDjs-six.git",
+  "engines": {
+    "node": ">= 0.10.3"
+  },
+  "dependencies": {
+    "carrier": ">= 0.1.13",
+    "bcrypt": ">= 0.8.0",
+    "winston": "0.7.3",
+    "commander": "git://github.com/visionmedia/commander.js.git"
+  },
+  "bin": {
+    "ircdjs-pwgen": "bin/pwgen.js",
+    "ircdjs": "ircdjs-six"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/rambeau88/IRCDjs-six/blob/master/LICENSE"
+    }
+  ]
+}
