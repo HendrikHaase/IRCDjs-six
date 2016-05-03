@@ -48,7 +48,7 @@ rambeau88 (kyle)
 * NOTICE
 * ADMIN
 * INFO
-* STATS: C, U
+* STATS: C, U, M
 * Channel modes: A, P, a, o, p, s, t, r, n, m, i, l, b, v, k
 * User modes: O, S, A, N, X, a, i, w, o, s
 * Prefix: &Service ~Oper @Owner %Host +Voice
