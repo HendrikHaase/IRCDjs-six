@@ -18,6 +18,15 @@
   "adminLoc2": "New York",
   "adminEmail": "admin@admin.com",
   "clientvHost": ".user.network",
+  "links": {
+    "server2": {
+      "active": true,
+      "host": "127.0.0.1",
+      "password": "$2a$10$T1UJYlinVUGHqfInKSZQz./CHrYIVVqbDO3N1fRNEUvFvSEcshNdC",
+      "port": 7778,
+      "token": 2
+    }
+  },
   "opers": {
     "admin": {
       "allowedHost": "*",
