@@ -1,29 +1,25 @@
-<pre>
- ::::::::::..     .,-::::::::::::-.         ....:::::: .::::::. 
- ;;;;;;;``;;;;  ,;;;'````' ;;,   `';,    ;;;;;;;;;````;;;`    ` 
- [[[ [[[,/[[['  [[[        `[[     [[    ''`  `[[.    '[==/[[[[,
- $$$ $$$$$$c    $$$         $$,    $$   ,,,    `$$      '''    $
- 888 888b "88bo,`88bo,__,o, 888_,o8P'd8b888boood88     88b    dP
- MMM MMMM   "W"   "YUMMMMMP"MMMMP"`  YMP"MMMMMMMM"      "YMmMY" 
-
-                                            A Node.JS IRC Server
- ircd.js
-</pre>
 ## IRCDjs-six
-IRCDjs-six is a fork from the original owners git hub (I believe to be Alex Young): https://github.com/alexyoung/ircd.js
+[![Version npm](https://img.shields.io/npm/v/ircdjs-six.svg?style=flat-square)](https://www.npmjs.com/package/ircdjs-six)[![npm Downloads](https://img.shields.io/npm/dm/ircdjs-six.svg?style=flat-square)](https://www.npmjs.com/package/ircdjs-six)[![Build Status](https://img.shields.io/travis/rambeau88/ircdjs-six/master.svg?style=flat-square)](https://travis-ci.org/rambeau88/ircdjs-six)[![Dependencies](https://img.shields.io/david/rambeau88/ircdjs-six.svg?style=flat-square)](https://david-dm.org/rambeau88/ircdjs-six)
+
+[![NPM](https://nodei.co/npm/ircdjs-six.png?downloads=true&downloadRank=true)](https://nodei.co/npm/ircdjs-six/)
+
+IRCDjs-six is a "NodeJS":http://nodejs.org/ IRC Server extension of the orignal ircd.js project. The project will follow "RFC 1459":https://tools.ietf.org/html/rfc1459 / "RFC 2812":https://tools.ietf.org/html/rfc2812 to some extent. 
 
 
-The reason I started this extension is to advance my NodeJS skills and overall javascript knowledge. Feel free to contribute and become a project developer. 
+IRC servers were always fascinating to me and I always wished to take part in creating a cloud based irc server. I will go as far as I can with this project and try to make updates daily. Im a feedback lover so let me know your thoughts.  
 
 
-The readme has been updated. The original one can be found here: https://github.com/alexyoung/ircd.js/blob/master/README.textile
+
+IRCD.js-six Extension Developer
+
+rambeau88
 
 
-IRCD.js-six Dev
+#### Documentation
 
-rambeau88 (kyle)
+There is no documentation of this version.
 
-#### Done
+#### IRC Commands Completed
 
 * PASS (connection password)
 * PING/PONG
@@ -48,9 +44,9 @@ rambeau88 (kyle)
 * NOTICE
 * ADMIN
 * INFO
-* STATS: C, U, M
-* Channel modes: A, P, a, o, p, s, t, r, n, m, i, l, b, v, k
-* User modes: O, S, A, N, X, a, i, w, o, s
+* STATS: C, M, U
+* Channel modes: A,a,o,h,v | P,p,s,t,r,n,m,i,l,b,k
+* User modes: O,S,A,N,X,a,i,w,o,s
 * Prefix: &Service ~Oper @Owner %Host +Voice
 
 #### Oper Levels
@@ -69,7 +65,7 @@ rambeau88 (kyle)
 * WALLOPS        (2+)
 
 
-#### In Progress:
+#### Things to do next...
 
 * Services
 * Server Links
@@ -81,11 +77,7 @@ rambeau88 (kyle)
 * Log files and logging options
 * Local ops (+O)
 
-#### Documentation
-
-There is no documentation of this version.
-
-#### Contributions
+#### Contributions (ircd.js)
 
 * overra
 * jazzychad (Chad Etzel)
