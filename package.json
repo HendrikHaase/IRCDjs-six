@@ -1,6 +1,6 @@
 {
   "name": "ircdjs-six",
-  "description": "An Advanced IRCD for Node",
+  "description": "An Advanced IRC Server for Node",
   "version": "0.0.75-six",
   "homepage": "https://github.com/rambeau88/IRCDjs-six",
   "author": "Kyle Rambeau (jkrambeau@gmail.com)",
